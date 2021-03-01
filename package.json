@@ -1,0 +1,38 @@
+{
+  "name": "@upcodee/viewmodel",
+  "version": "1.0.0",
+  "description": "View model is library for MVVM architecture for React apps using Mobx and RxJS",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "barrelsby --delete -d src && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/upcodee/viewmodel.git"
+  },
+  "keywords": [
+    "typescript",
+    "mvvm",
+    "viewmodel",
+    "architecture",
+    "javascript"
+  ],
+  "author": "upcodee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/upcodee/viewmodel/issues"
+  },
+  "homepage": "https://github.com/upcodee/viewmodel#readme",
+  "devDependencies": {
+    "barrelsby": "^2.2.0",
+    "typescript": "^4.1.5"
+  },
+  "dependencies": {
+    "@reactivex/rxjs": "6.6.3",
+    "@types/react": "^17.0.2",
+    "react": "17.0.1",
+    "rxjs": "6.6.3"
+  }
+}
