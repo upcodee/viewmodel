@@ -14,7 +14,7 @@ export class ViewModelScope {
     }
 
     launchInside<T>(observable: Observable<T>) {
-        this.subscription.add(observable.subscribe())
+        this.subscription.add(observable.subscribe(_ => { }, _ => { }, () => { }))
     }
 
     dispose(): void {

@@ -1,6 +1,6 @@
 {
   "name": "@upcodee/viewmodel",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "View model is library for MVVM architecture for React apps using Mobx and RxJS",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
